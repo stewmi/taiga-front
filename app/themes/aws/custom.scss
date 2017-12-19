@@ -8,7 +8,7 @@
 //** TYPOGRAPHY
 //**************************
 
-@each $font-face in OpenSans-CondLight, OpenSans-Light, opensans-regular, opensans-semibold, taiga {
+@each $font-face in AmazonEmber_Rg, OpenSans-CondLight, OpenSans-Light, opensans-regular, opensans-semibold, taiga {
     @font-face {
         font-family: '#{$font-face}';
         src: url('../fonts/#{$font-face}.eot?#iefix') format('embedded-opentype'),
